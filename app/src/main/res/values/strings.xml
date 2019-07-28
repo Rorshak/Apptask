@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+    <string name="main_name">task-app</string>
+    <string name="lbl_continue">Continue</string>
+    <string-array name="cmbPriorities">
+        <item>Important</item>
+        <item>Urgent</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="cmbStatus">
+        <item>Pending</item>
+        <item>Concluded</item>
+        <item>Canceled</item>
+    </string-array>
+</resources>

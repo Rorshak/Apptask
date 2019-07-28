@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40sp">
+
+    <TextView
+        android:id="@+id/txv_task_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task 0001"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:gravity="left"
+        android:text="Descripción:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Terminar adecuadamente los requerimientos
+        de la materia de inegradora que están pendientes"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="left"
+        android:text="Prioridad:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txv_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muy urgente por la fecha de entrega establecida"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="left"
+        android:text="Fecha:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La finalización es el 14 de junio de 2019"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="left"
+        android:text="Estatus:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Casi concluida (falta muy poco)"
+        android:layout_marginTop="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anothertask"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
